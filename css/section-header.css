@@ -1,0 +1,23 @@
+/* SECTION HEADER */
+.section-header{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 70px 15px;
+}
+.section-header h2{
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-header h2:after{
+    content:'';
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #3e6edf;
+    margin: 30px auto;
+}
+.section-header p {
+    margin: 0;
+}

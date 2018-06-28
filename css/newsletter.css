@@ -1,0 +1,60 @@
+/* NEWSLETTER */
+.newsletter{
+    background-color:#3e6edf;
+    padding: 35px 0;
+    margin-bottom: 20px;;
+}
+.newsletter > .container {
+    justify-content: space-between;
+}
+
+.newsletter-text{
+    flex-basis: 66%;
+
+}
+.newsletter-text h3,
+.newsletter-text p{
+    color: #fff;
+}
+.newsletter-text h3{
+    margin: 0 0 15px;
+    font-weight: 300;
+}
+.newsletter-text p {
+    margin: 0;
+}
+
+.newsletter-cta{
+    text-align: center;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* REMODAL */
+.remodal {
+    max-width: 480px;
+}
+.remodal form{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.remodal input,
+.remodal button{
+    width: 100%;
+}
+.remodal input {
+    margin-bottom: 10px;
+}
+.remodal button{
+    text-transform: uppercase;
+}
+.remodal h3,
+.remodal p {
+    margin: 0 0 20px;
+}
+
+/* RWD */
+@media (max-width: 990px){
+
+}

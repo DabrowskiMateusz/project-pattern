@@ -1,0 +1,42 @@
+/* GALLERY */
+.gallery{
+
+}
+.gallery > .container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gallery-item {
+
+    flex-basis: 31%;
+    margin-bottom: 50px;
+}
+
+.gallery-image-link img {
+
+    width: 100%;
+    display: block;
+    
+}
+.gallery-image-link{
+    display: block;
+    margin-bottom: 30px;
+}
+.gallery-item h3{
+    font-size: 24px;
+    margin: 0 0 15px 0;
+}
+.gallery-item h3 a {
+    color:#333; 
+}
+.gallery-item p {
+    margin: 0;
+}
+
+@media (max-width: 800px){
+    .gallery-item{
+        flex-basis: 47%;
+    }
+
+
+}

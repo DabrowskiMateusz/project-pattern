@@ -1,0 +1,35 @@
+/* BUTTONS */
+.btn{
+    display: inline-block;
+    color: #fff;
+    background-color:#3e6edf;
+    padding: 12px 18px;
+    border-radius: 4px;
+    border: 0;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+/* BUTTONS SIZES */
+.btn i{
+    margin-left: 8px;
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 8px 12px;
+}
+.btn-lg{
+    font-size: 22px;
+    padding: 16px 28px;
+}
+
+/* BUTTONS COLLOURS */
+.btn-yellow{
+    background-color: #ffe522;
+    color: #333;
+}
+.btn-gray{
+    background-color: #808080;
+    color: #fff;
+}
